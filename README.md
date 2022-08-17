@@ -1,6 +1,11 @@
+Estrutura de Classes:
+
+-----------------
+
+
 Locação de imóveis pelo estado do RJ
 
-Pessoa: !
+Pessoa: 
 nome
 cpf
 data de nascimento
@@ -8,26 +13,26 @@ endereço completo
 email
 telefone
 
-ImoveisPref: !
+ImoveisPref: 
 valMax
 valMin
 tipo
 local
 qntQuart
 
-ClienteCompra: !
+ClienteCompra: 
 	Pessoa()
 	ImóveisPref()
 
 
-ClienteVenda: !
+ClienteVenda: 
 	Pessoa()
 estado civil
 identidade
 filação
 naturalidade
 
-Imoveis:!
+Imoveis:
 categoria (residencial, industrial, comercial, reural)
 busca (compra, locação, lançamento)
 tipo (apartamento, kitnet, flat,casa,terreno,sítio)
